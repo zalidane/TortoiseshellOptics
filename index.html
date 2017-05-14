@@ -3,6 +3,7 @@
     <title>Tortoiseshell Optics</title>
     <link href="resources/css/reset.css" rel="stylesheet" type="text/css" />
     <link href="resources/css/styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
     <!-- Main Content -->
@@ -15,7 +16,12 @@
                         <img src="resources/images/logo-white.png" alt="Tortoiseshell Optics Logo" />
                         <div><span>Tortoiseshell Optics</span></div>
                     </div>
-                    <nav>
+                    <nav class="mobile-nav">
+                        <ul>
+                            <li>Menu</li>
+                        </ul>
+                    </nav>
+                    <nav class="nav">
                         <ul>
                             <li>Services</li>
                             <li>Products</li>
@@ -24,8 +30,10 @@
                     </nav>
                 </div>
             </header>
-            <div class="headline">
-                <span>DON'T JUST LOOK, SEE.</span>
+            <div class="hero">
+                <div class="headline">
+                    <span>DON'T JUST LOOK, SEE.</span>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -64,7 +72,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="container">
+    <footer>
         <div class="logo">
             <img src="resources/images/logo-black.png" alt="Tortoiseshell Optics Logo" />
             <span>Copyright Tortoiseshell Optics</span>
